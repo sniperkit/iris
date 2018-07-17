@@ -3,7 +3,7 @@ package hero
 import (
 	"reflect"
 
-	"github.com/kataras/iris/context"
+	"github.com/sniperkit/iris/context"
 )
 
 // weak because we don't have access to the path, neither

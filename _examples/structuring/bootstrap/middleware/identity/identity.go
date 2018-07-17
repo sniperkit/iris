@@ -3,9 +3,9 @@ package identity
 import (
 	"time"
 
-	"github.com/kataras/iris"
+	"github.com/sniperkit/iris"
 
-	"github.com/kataras/iris/_examples/structuring/bootstrap/bootstrap"
+	"github.com/sniperkit/iris/_examples/structuring/bootstrap/bootstrap"
 )
 
 // New returns a new handler which adds some headers and view data

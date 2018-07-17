@@ -2,7 +2,7 @@
 package main
 
 import (
-	"github.com/kataras/iris"
+	"github.com/sniperkit/iris"
 )
 
 func main() {

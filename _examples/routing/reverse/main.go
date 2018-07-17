@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/core/router"
+	"github.com/sniperkit/iris"
+	"github.com/sniperkit/iris/core/router"
 )
 
 func main() {

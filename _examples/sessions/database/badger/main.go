@@ -3,10 +3,10 @@ package main
 import (
 	"time"
 
-	"github.com/kataras/iris"
+	"github.com/sniperkit/iris"
 
-	"github.com/kataras/iris/sessions"
-	"github.com/kataras/iris/sessions/sessiondb/badger"
+	"github.com/sniperkit/iris/sessions"
+	"github.com/sniperkit/iris/sessions/sessiondb/badger"
 )
 
 func main() {

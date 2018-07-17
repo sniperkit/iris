@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/kataras/iris"
+	"github.com/sniperkit/iris"
 
-	"github.com/kataras/iris/typescript"
+	"github.com/sniperkit/iris/typescript"
 )
 
 // NOTE: Some machines don't allow to install typescript automatically, so if you don't have typescript installed

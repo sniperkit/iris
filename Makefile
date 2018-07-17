@@ -3,7 +3,7 @@
 update-fork: pull-upstream
 
 register-upstream:
-	@git remote add upstream git://github.com/kataras/iris
+	@git remote add upstream git://github.com/sniperkit/iris
 	@git fetch upstream
 
 pull-upstream:

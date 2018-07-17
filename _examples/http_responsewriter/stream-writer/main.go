@@ -5,7 +5,7 @@ import (
 	"io"
 	"time" // showcase the delay
 
-	"github.com/kataras/iris"
+	"github.com/sniperkit/iris"
 )
 
 func main() {

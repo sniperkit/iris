@@ -4,11 +4,11 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/context"
-	"github.com/kataras/iris/httptest"
+	"github.com/sniperkit/iris"
+	"github.com/sniperkit/iris/context"
+	"github.com/sniperkit/iris/httptest"
 
-	. "github.com/kataras/iris/mvc"
+	. "github.com/sniperkit/iris/mvc"
 )
 
 type testControllerMethodResult struct {

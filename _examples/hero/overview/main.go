@@ -3,14 +3,14 @@
 package main
 
 import (
-	"github.com/kataras/iris/_examples/hero/overview/datasource"
-	"github.com/kataras/iris/_examples/hero/overview/repositories"
-	"github.com/kataras/iris/_examples/hero/overview/services"
-	"github.com/kataras/iris/_examples/hero/overview/web/middleware"
-	"github.com/kataras/iris/_examples/hero/overview/web/routes"
+	"github.com/sniperkit/iris/_examples/hero/overview/datasource"
+	"github.com/sniperkit/iris/_examples/hero/overview/repositories"
+	"github.com/sniperkit/iris/_examples/hero/overview/services"
+	"github.com/sniperkit/iris/_examples/hero/overview/web/middleware"
+	"github.com/sniperkit/iris/_examples/hero/overview/web/routes"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/hero"
+	"github.com/sniperkit/iris"
+	"github.com/sniperkit/iris/hero"
 )
 
 func main() {

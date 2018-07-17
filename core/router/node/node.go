@@ -4,8 +4,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/kataras/iris/context"
-	"github.com/kataras/iris/core/errors"
+	"github.com/sniperkit/iris/context"
+	"github.com/sniperkit/iris/core/errors"
 )
 
 // Nodes a conversion type for []*node.

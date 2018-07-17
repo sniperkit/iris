@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/core/netutil"
+	"github.com/sniperkit/iris"
+	"github.com/sniperkit/iris/core/netutil"
 )
 
 func main() {

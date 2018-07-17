@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/kataras/iris/context"
-	"github.com/kataras/iris/core/errors"
+	"github.com/sniperkit/iris/context"
+	"github.com/sniperkit/iris/core/errors"
 )
 
 // Router is the "director".

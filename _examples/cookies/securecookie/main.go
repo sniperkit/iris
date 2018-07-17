@@ -6,7 +6,7 @@ package main
 // $ go run main.go
 
 import (
-	"github.com/kataras/iris"
+	"github.com/sniperkit/iris"
 
 	"github.com/gorilla/securecookie"
 )

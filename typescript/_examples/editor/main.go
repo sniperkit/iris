@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/kataras/iris"
+	"github.com/sniperkit/iris"
 
-	"github.com/kataras/iris/typescript/editor"
+	"github.com/sniperkit/iris/typescript/editor"
 )
 
 func main() {

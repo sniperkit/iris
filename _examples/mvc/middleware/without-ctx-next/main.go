@@ -25,8 +25,8 @@ to be executed but we don't want to add `ctx.Next()` on the `exampleController#E
 package main
 
 import (
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/mvc"
+	"github.com/sniperkit/iris"
+	"github.com/sniperkit/iris/mvc"
 )
 
 func main() {

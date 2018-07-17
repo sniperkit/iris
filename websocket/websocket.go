@@ -2,11 +2,11 @@
 
 Source code and other details for the project are available at GitHub:
 
-   https://github.com/kataras/iris/tree/master/websocket
+   https://github.com/sniperkit/iris/tree/master/websocket
 
 Installation
 
-    $ go get -u github.com/kataras/iris/websocket
+    $ go get -u github.com/sniperkit/iris/websocket
 
 
 Example code:
@@ -17,10 +17,10 @@ Example code:
 	import (
 		"fmt"
 
-		"github.com/kataras/iris"
-		"github.com/kataras/iris/context"
+		"github.com/sniperkit/iris"
+		"github.com/sniperkit/iris/context"
 
-		"github.com/kataras/iris/websocket"
+		"github.com/sniperkit/iris/websocket"
 	)
 
 	func main() {

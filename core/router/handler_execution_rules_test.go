@@ -3,10 +3,10 @@ package router_test
 import (
 	"testing"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/context"
-	"github.com/kataras/iris/core/router"
-	"github.com/kataras/iris/httptest"
+	"github.com/sniperkit/iris"
+	"github.com/sniperkit/iris/context"
+	"github.com/sniperkit/iris/core/router"
+	"github.com/sniperkit/iris/httptest"
 )
 
 var (

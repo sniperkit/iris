@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/kataras/iris/core/netutil"
-	"github.com/kataras/iris/core/router/macro/interpreter/lexer"
+	"github.com/sniperkit/iris/core/netutil"
+	"github.com/sniperkit/iris/core/router/macro/interpreter/lexer"
 )
 
 const (

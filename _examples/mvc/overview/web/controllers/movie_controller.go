@@ -5,10 +5,10 @@ package controllers
 import (
 	"errors"
 
-	"github.com/kataras/iris/_examples/mvc/overview/datamodels"
-	"github.com/kataras/iris/_examples/mvc/overview/services"
+	"github.com/sniperkit/iris/_examples/mvc/overview/datamodels"
+	"github.com/sniperkit/iris/_examples/mvc/overview/services"
 
-	"github.com/kataras/iris"
+	"github.com/sniperkit/iris"
 )
 
 // MovieController is our /movies controller.

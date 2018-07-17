@@ -1,8 +1,8 @@
 package mvc
 
 import (
-	"github.com/kataras/iris/context"
-	"github.com/kataras/iris/sessions"
+	"github.com/sniperkit/iris/context"
+	"github.com/sniperkit/iris/sessions"
 )
 
 var defaultSessionManager = sessions.New(sessions.Config{})

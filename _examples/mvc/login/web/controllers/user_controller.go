@@ -3,12 +3,12 @@
 package controllers
 
 import (
-	"github.com/kataras/iris/_examples/mvc/login/datamodels"
-	"github.com/kataras/iris/_examples/mvc/login/services"
+	"github.com/sniperkit/iris/_examples/mvc/login/datamodels"
+	"github.com/sniperkit/iris/_examples/mvc/login/services"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/mvc"
-	"github.com/kataras/iris/sessions"
+	"github.com/sniperkit/iris"
+	"github.com/sniperkit/iris/mvc"
+	"github.com/sniperkit/iris/sessions"
 )
 
 // UserController is our /user controller.

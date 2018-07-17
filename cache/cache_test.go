@@ -6,16 +6,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kataras/iris/cache"
-	"github.com/kataras/iris/cache/client"
-	"github.com/kataras/iris/cache/client/rule"
+	"github.com/sniperkit/iris/cache"
+	"github.com/sniperkit/iris/cache/client"
+	"github.com/sniperkit/iris/cache/client/rule"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/context"
-	"github.com/kataras/iris/core/errors"
+	"github.com/sniperkit/iris"
+	"github.com/sniperkit/iris/context"
+	"github.com/sniperkit/iris/core/errors"
 
 	"github.com/iris-contrib/httpexpect"
-	"github.com/kataras/iris/httptest"
+	"github.com/sniperkit/iris/httptest"
 )
 
 var (

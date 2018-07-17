@@ -5,11 +5,11 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/kataras/iris/context"
-	"github.com/kataras/iris/core/router"
-	"github.com/kataras/iris/core/router/macro"
-	"github.com/kataras/iris/hero"
-	"github.com/kataras/iris/hero/di"
+	"github.com/sniperkit/iris/context"
+	"github.com/sniperkit/iris/core/router"
+	"github.com/sniperkit/iris/core/router/macro"
+	"github.com/sniperkit/iris/hero"
+	"github.com/sniperkit/iris/hero/di"
 
 	"github.com/kataras/golog"
 )

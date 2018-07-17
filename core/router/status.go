@@ -4,7 +4,7 @@ import (
 	"net/http" // just for status codes
 	"sync"
 
-	"github.com/kataras/iris/context"
+	"github.com/sniperkit/iris/context"
 )
 
 func statusCodeSuccessful(statusCode int) bool {

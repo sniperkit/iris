@@ -3,8 +3,8 @@ package main
 import (
 	"time"
 
-	"github.com/kataras/iris"
 	"github.com/r3labs/sse"
+	"github.com/sniperkit/iris"
 )
 
 // First of all install the sse third-party package (you can use other if you don't like this approach)

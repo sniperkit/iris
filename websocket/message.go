@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kataras/iris/core/errors"
+	"github.com/sniperkit/iris/core/errors"
 	"github.com/valyala/bytebufferpool"
 )
 

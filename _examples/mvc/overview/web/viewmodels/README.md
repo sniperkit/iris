@@ -6,9 +6,9 @@ Example:
 
 ```go
 import (
-    "github.com/kataras/iris/_examples/mvc/overview/datamodels"
+    "github.com/sniperkit/iris/_examples/mvc/overview/datamodels"
 
-    "github.com/kataras/iris/context"
+    "github.com/sniperkit/iris/context"
 )
 
 type Movie struct {

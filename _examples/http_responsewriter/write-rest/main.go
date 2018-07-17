@@ -3,8 +3,8 @@ package main
 import (
 	"encoding/xml"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/context"
+	"github.com/sniperkit/iris"
+	"github.com/sniperkit/iris/context"
 )
 
 // User bind struct

@@ -3,7 +3,7 @@ package router
 import (
 	"strings"
 
-	"github.com/kataras/iris/context"
+	"github.com/sniperkit/iris/context"
 )
 
 // AssetValidator returns true if "filename"

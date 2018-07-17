@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kataras/iris/httptest"
 	"github.com/klauspost/compress/gzip"
+	"github.com/sniperkit/iris/httptest"
 )
 
 type resource string

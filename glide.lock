@@ -1,5 +1,5 @@
-hash: 0b2900e7749f7306de5a40a7b956fff73247ee8c55955261be0b9e5bbb5ad33c
-updated: 2018-07-17T13:25:32.821293566+02:00
+hash: 4b8be9d83b94039431237047250430134cae8e1efe157249a7539336e06d2105
+updated: 2018-07-17T13:31:07.042254651+02:00
 imports:
 - name: github.com/ajg/form
   version: 523a5da1a92f01b01f840b61689c0340a0243532
@@ -74,41 +74,6 @@ imports:
   version: c7d06af17c68cd34c835053720b21f6549d9b0ee
 - name: github.com/kataras/golog
   version: 03be101463868edc5a81f094fc68a5f6c1b5503a
-- name: github.com/kataras/iris
-  version: eba6adbd78bb547b220f7fe7fbda331532134e87
-  subpackages:
-  - cache
-  - cache/cfg
-  - cache/client
-  - cache/client/rule
-  - cache/entry
-  - cache/ruleset
-  - cache/uri
-  - context
-  - core/errors
-  - core/handlerconv
-  - core/host
-  - core/maintenance
-  - core/maintenance/version
-  - core/memstore
-  - core/netutil
-  - core/router
-  - core/router/macro
-  - core/router/macro/interpreter/ast
-  - core/router/macro/interpreter/lexer
-  - core/router/macro/interpreter/parser
-  - core/router/macro/interpreter/token
-  - core/router/node
-  - hero
-  - hero/di
-  - httptest
-  - middleware/logger
-  - middleware/recover
-  - mvc
-  - sessions
-  - sessions/sessiondb/redis/service
-  - typescript/npm
-  - view
 - name: github.com/kataras/pio
   version: a9733b5b6b83d32b479aacd51d26ef6018261963
   subpackages:
@@ -148,8 +113,6 @@ imports:
   - difflib
 - name: github.com/ryanuber/columnize
   version: abc90934186a77966e2beeac62ed966aac0561d5
-- name: github.com/satori/go.uuid
-  version: 36e9d2ebbde5e3f13ab2e25625fd453271d6522e
 - name: github.com/sergi/go-diff
   version: 24e2351369ec4949b2ed0dc5c477afdd4c4034e8
   repo: https://github.com/sergi/go-diff

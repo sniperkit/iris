@@ -3,10 +3,10 @@ package sessions_test
 import (
 	"testing"
 
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/context"
-	"github.com/kataras/iris/httptest"
-	"github.com/kataras/iris/sessions"
+	"github.com/sniperkit/iris"
+	"github.com/sniperkit/iris/context"
+	"github.com/sniperkit/iris/httptest"
+	"github.com/sniperkit/iris/sessions"
 )
 
 func TestSessions(t *testing.T) {

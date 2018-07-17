@@ -3,7 +3,7 @@ package hero
 import (
 	"reflect"
 
-	"github.com/kataras/iris/hero/di"
+	"github.com/sniperkit/iris/hero/di"
 )
 
 func init() {

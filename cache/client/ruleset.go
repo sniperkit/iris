@@ -1,10 +1,10 @@
 package client
 
 import (
-	"github.com/kataras/iris/cache/cfg"
-	"github.com/kataras/iris/cache/client/rule"
-	"github.com/kataras/iris/cache/ruleset"
-	"github.com/kataras/iris/context"
+	"github.com/sniperkit/iris/cache/cfg"
+	"github.com/sniperkit/iris/cache/client/rule"
+	"github.com/sniperkit/iris/cache/ruleset"
+	"github.com/sniperkit/iris/context"
 )
 
 // DefaultRuleSet is a list of the default pre-cache validators

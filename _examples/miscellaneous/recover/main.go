@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/kataras/iris"
+	"github.com/sniperkit/iris"
 
-	"github.com/kataras/iris/middleware/recover"
+	"github.com/sniperkit/iris/middleware/recover"
 )
 
 func main() {
