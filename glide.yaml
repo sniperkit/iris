@@ -1,33 +1,114 @@
 package: github.com/sniperkit/iris
+ignore:
+- syscall/js
 import:
 - package: github.com/BurntSushi/toml
 - package: github.com/Joker/jade
+- package: github.com/aws/aws-sdk-go
+  subpackages:
+  - aws
+  - service/cloudwatch
 - package: github.com/aymerick/raymond
+- package: github.com/betacraft/yaag
+  subpackages:
+  - irisyaag
+  - yaag
+- package: github.com/casbin/casbin
 - package: github.com/coreos/bbolt
 - package: github.com/dgraph-io/badger
+- package: github.com/dgrijalva/jwt-go
+- package: github.com/didip/tollbooth
 - package: github.com/eknkc/amber
 - package: github.com/fatih/structs
 - package: github.com/flosch/pongo2
+- package: github.com/getsentry/raven-go
+- package: github.com/go-xorm/xorm
 - package: github.com/gomodule/redigo
   subpackages:
   - redis
+- package: github.com/googollee/go-socket.io
+- package: github.com/gorilla/securecookie
 - package: github.com/gorilla/websocket
 - package: github.com/hashicorp/go-version
 - package: github.com/iris-contrib/formBinder
 - package: github.com/iris-contrib/go.uuid
 - package: github.com/iris-contrib/httpexpect
 - package: github.com/iris-contrib/i18n
+- package: github.com/iris-contrib/middleware
+  subpackages:
+  - casbin
+  - cloudwatch
+  - cors
+  - csrf
+  - jwt
+  - newrelic
+  - prometheus
+  - secure
+  - tollboothic
 - package: github.com/json-iterator/go
 - package: github.com/kataras/golog
 - package: github.com/kataras/survey
 - package: github.com/klauspost/compress
   subpackages:
   - gzip
+- package: github.com/markbates/goth
+  subpackages:
+  - providers/amazon
+  - providers/auth0
+  - providers/bitbucket
+  - providers/box
+  - providers/dailymotion
+  - providers/deezer
+  - providers/digitalocean
+  - providers/discord
+  - providers/dropbox
+  - providers/facebook
+  - providers/fitbit
+  - providers/github
+  - providers/gitlab
+  - providers/gplus
+  - providers/heroku
+  - providers/instagram
+  - providers/intercom
+  - providers/lastfm
+  - providers/linkedin
+  - providers/meetup
+  - providers/onedrive
+  - providers/openidConnect
+  - providers/paypal
+  - providers/salesforce
+  - providers/slack
+  - providers/soundcloud
+  - providers/spotify
+  - providers/steam
+  - providers/stripe
+  - providers/twitch
+  - providers/twitter
+  - providers/uber
+  - providers/wepay
+  - providers/xero
+  - providers/yahoo
+  - providers/yammer
+- package: github.com/mattn/go-sqlite3
 - package: github.com/microcosm-cc/bluemonday
+- package: github.com/nfnt/resize
+- package: github.com/prometheus/client_golang
+  subpackages:
+  - prometheus
+- package: github.com/r3labs/sse
 - package: github.com/ryanuber/columnize
+- package: github.com/satori/go.uuid
+- package: github.com/shiyanhui/hero
 - package: github.com/valyala/bytebufferpool
+- package: github.com/valyala/quicktemplate
+- package: github.com/valyala/tcplisten
 - package: golang.org/x/crypto
   subpackages:
   - acme/autocert
+  - bcrypt
+- package: golang.org/x/net
+  subpackages:
+  - websocket
 - package: gopkg.in/russross/blackfriday.v2
 - package: gopkg.in/yaml.v2
+- package: syscall/js
