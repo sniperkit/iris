@@ -1,0 +1,65 @@
+package: github.com/sniperkit/iris
+import:
+- package: github.com/BurntSushi/toml
+- package: github.com/Joker/jade
+- package: github.com/aymerick/raymond
+- package: github.com/coreos/bbolt
+- package: github.com/dgraph-io/badger
+- package: github.com/eknkc/amber
+- package: github.com/fatih/structs
+- package: github.com/flosch/pongo2
+- package: github.com/gomodule/redigo
+  subpackages:
+  - redis
+- package: github.com/gorilla/websocket
+- package: github.com/hashicorp/go-version
+- package: github.com/iris-contrib/formBinder
+- package: github.com/iris-contrib/go.uuid
+- package: github.com/iris-contrib/httpexpect
+- package: github.com/iris-contrib/i18n
+- package: github.com/json-iterator/go
+- package: github.com/kataras/golog
+- package: github.com/kataras/iris
+  subpackages:
+  - cache
+  - cache/cfg
+  - cache/client
+  - cache/client/rule
+  - cache/entry
+  - cache/ruleset
+  - cache/uri
+  - context
+  - core/errors
+  - core/handlerconv
+  - core/host
+  - core/maintenance
+  - core/maintenance/version
+  - core/memstore
+  - core/netutil
+  - core/router
+  - core/router/macro
+  - core/router/macro/interpreter/ast
+  - core/router/macro/interpreter/lexer
+  - core/router/macro/interpreter/parser
+  - core/router/macro/interpreter/token
+  - core/router/node
+  - hero
+  - hero/di
+  - middleware/logger
+  - middleware/recover
+  - sessions
+  - sessions/sessiondb/redis/service
+  - typescript/npm
+  - view
+- package: github.com/kataras/survey
+- package: github.com/klauspost/compress
+  subpackages:
+  - gzip
+- package: github.com/microcosm-cc/bluemonday
+- package: github.com/ryanuber/columnize
+- package: github.com/valyala/bytebufferpool
+- package: golang.org/x/crypto
+  subpackages:
+  - acme/autocert
+- package: gopkg.in/russross/blackfriday.v2
+- package: gopkg.in/yaml.v2
